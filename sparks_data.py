@@ -48,7 +48,7 @@ def main():
         choice = input('Do you want to add an answer to question code or retrieve answer? (a/r): ').lower()
         if choice == 'a':
             code = input('Enter code, no spaces: ').lower()
-            answer = input('Enter answer, no spaces: ')
+            answer = input('Enter answer: ')
             data = append_to_data(data, code, answer)
         elif choice == 'r':
             code = input('Enter code: ').lower()
